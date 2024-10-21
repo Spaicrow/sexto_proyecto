@@ -1,17 +1,18 @@
-import React from "react"
-import Hero from "../components/Hero"
-import Popular from "../components/Popular"
-import Offer from "../components/Offer"
-import NewCollections from "../components/NewCollections"
-import NewsLatter from "../components/NewsLatter"
+import React from 'react'
+import Hero from '../components/Hero'
+import Popular from '../components/Popular'
+import Offer from '../components/Offer'
+import NewCollections from '../components/NewCollections'
+import NewsLetter from '../components/NewsLetter'
+
 const Home = () => {
   return (
     <>
-    <Hero />
-    <Popular />
-    <Offer />
-    <NewCollections />
-    <NewsLatter />
+      <Hero />
+      <Popular />
+      <Offer />
+      <NewCollections />
+      <NewsLetter />
     </>
   )
 }
